@@ -249,11 +249,11 @@ header
 
 .code
 	min-height: 500px
+	position: relative
 	&_block_descr
 		padding-left: 113px
 	&_block_img
-		background: url('../img/bg/code_bg.png') center (center / cover) no-repeat
-		width: 598px
+		
 	&_title
 		margin-top: 123px
 		color: #242f51
@@ -262,9 +262,13 @@ header
 		line-height: 46px
 	&_subtitle
 		margin-top: 29px
-
+	&_img
+		position: absolute
+		background: url('../img/bg/code_bg.png') center (center / cover) no-repeat
+		width: 598px
+		height: 547px
 .why
-	min-height: 1111px
+	min-height: 1000px
 	
 	&_descr
 		margin-top: 141px
@@ -315,3 +319,53 @@ header
 		line-height: 26px
 		text-align: center
 	&_block
+
+.planning
+	min-height: 1000px
+	position: relative
+	margin-top: 100px
+	&_bg
+		position: absolute
+		left: 1000px
+		bottom: 150px
+		z-index: -1
+	&_title
+		color: #242f51
+		font-size: 36px
+		font-weight: 600
+		line-height: 46px
+	&_subtitle
+		margin-top: 20px
+		color: #616368
+		font-size: 16px
+		font-weight: 400
+		line-height: 26px
+	&_block
+		margin-top: 50px
+		padding-right: 90px
+	&_round
+		display: flex
+		justify-content: center
+		align-items: center
+		width: 88px
+		height: 88px
+		border-radius: 100%
+		&_1
+			background-color: #ffecef
+		&_2
+			background-color:#e4ffee
+		&_3
+			background-color: #fff6d3
+		&_4
+			background-color:  #eaf9ff
+	&_descr
+		margin-top: 30px
+		color: #242f51
+		font-size: 20px
+		font-weight: 600
+	&_subdescr
+		margin-top: 15px
+		color: #616368
+		font-size: 16px
+		font-weight: 400
+		line-height: 26px
