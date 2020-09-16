@@ -419,7 +419,7 @@ header {
 }
 
 .why_subdescr {
-  margin-top: 35px;
+  margin-top: 30px;
   color: #616368;
   font-size: 16px;
   font-weight: 400;
@@ -438,7 +438,7 @@ header {
       -ms-flex-align: center;
           align-items: center;
   margin: 0 auto;
-  margin-top: 70px;
+  margin-top: 83px;
   width: 88px;
   height: 88px;
   border-radius: 100%;
@@ -469,7 +469,7 @@ header {
 }
 
 .why_title {
-  margin-top: 36px;
+  margin-top: 32px;
   color: #242f51;
   font-size: 20px;
   font-weight: 500;
@@ -477,7 +477,7 @@ header {
 }
 
 .why_subtitle {
-  margin-top: 15px;
+  margin-top: 5px;
   color: #616368;
   font-size: 16px;
   font-weight: 400;
